@@ -14,6 +14,7 @@
 		857DC65D1E26BC33002C6728 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 857DC65B1E26BC33002C6728 /* LaunchScreen.storyboard */; };
 		857DC6681E26BC33002C6728 /* CardGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857DC6671E26BC33002C6728 /* CardGameTests.swift */; };
 		857DC6731E26BC33002C6728 /* CardGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857DC6721E26BC33002C6728 /* CardGameUITests.swift */; };
+		857DC6811E26D398002C6728 /* cardImages in Resources */ = {isa = PBXBuildFile; fileRef = 857DC6801E26D398002C6728 /* cardImages */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		857DC66E1E26BC33002C6728 /* CardGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		857DC6721E26BC33002C6728 /* CardGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGameUITests.swift; sourceTree = "<group>"; };
 		857DC6741E26BC33002C6728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		857DC6801E26D398002C6728 /* cardImages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = cardImages; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		857DC6511E26BC33002C6728 /* CardGame */ = {
 			isa = PBXGroup;
 			children = (
+				857DC6801E26D398002C6728 /* cardImages */,
 				857DC6521E26BC33002C6728 /* AppDelegate.swift */,
 				857DC6541E26BC33002C6728 /* ViewController.swift */,
 				857DC6561E26BC33002C6728 /* Main.storyboard */,
@@ -234,6 +237,7 @@
 			files = (
 				857DC65D1E26BC33002C6728 /* LaunchScreen.storyboard in Resources */,
 				857DC65A1E26BC33002C6728 /* Assets.xcassets in Resources */,
+				857DC6811E26D398002C6728 /* cardImages in Resources */,
 				857DC6581E26BC33002C6728 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +509,7 @@
 				857DC6791E26BC33002C6728 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		857DC67A1E26BC33002C6728 /* Build configuration list for PBXNativeTarget "CardGameTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				857DC67C1E26BC33002C6728 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		857DC67D1E26BC33002C6728 /* Build configuration list for PBXNativeTarget "CardGameUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				857DC67F1E26BC33002C6728 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
